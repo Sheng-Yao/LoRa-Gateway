@@ -14,7 +14,7 @@ const char WIFI_SSID[] = "LoRa Receiver WiFi";
 const char WIFI_PASSWORD[] = "12345678901";
 
 // API link
-String SERVER_LINK = "https://api.wildtechalert.com/";
+String SERVER_LINK = "xxx";
 
 //define the pins used by the transceiver module
 #define NSS 4
@@ -81,8 +81,8 @@ String pendingAPI = "";
 String pendingMessage = "";
 String pendingMessageType = "";
 
-String device_name = "wta-a03";
-String x_api_key = "d7970e19-38ac-41aa-b1f4-6141fcf89b67";
+String device_name = "xxx";
+String x_api_key = "xxx";
 
 void loop() {
 
