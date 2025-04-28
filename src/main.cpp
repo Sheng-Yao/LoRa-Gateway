@@ -10,11 +10,11 @@
 #include <ArduinoJson.h>
 
 // Wi-Fi settings
-const char WIFI_SSID[] = "Server";  // Change to LoRa Receiver WiFi
+const char WIFI_SSID[] = "LoRa Receiver WiFi";
 const char WIFI_PASSWORD[] = "12345678901";
 
 // API link
-String SERVER_LINK = "https://wildtechalert-39e415aada0a.herokuapp.com/";
+String SERVER_LINK = "https://api.wildtechalert.com/";
 
 //define the pins used by the transceiver module
 #define NSS 4
